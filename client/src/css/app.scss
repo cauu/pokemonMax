@@ -1,0 +1,38 @@
+@import 'base/_variables';
+@import "base/_mixin";
+
+@import 'framework/_layout';
+@import 'framework/_grid';
+
+@import 'vendor/_purecss';
+
+@import 'component/_input';
+@import 'component/_button';
+@import 'component/_font';
+@import 'component/_bar';
+@import 'component/_backdrop';
+@import 'component/_card';
+
+html {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: white;
+  font-size: 20px;
+
+  @include responsive-lg-break {
+      font-size: 17px;
+  }
+}
+
+body {
+  margin: 0 0;
+}
+
+.statistic {
+  display: none;
+  a {
+    height: 0;
+    widtH: 0;
+  }
+}

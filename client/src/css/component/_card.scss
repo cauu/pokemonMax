@@ -1,0 +1,20 @@
+.pm-card-head {
+  height: 155px;
+  padding-top: 35px;
+  width: 100%;
+  .head {
+    height: 90px;
+    text-align: center;
+  }
+  .name {
+    // padding-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .sub {
+    height: 10px; 
+    line-height: 10px;
+    text-align: center;
+  }
+}

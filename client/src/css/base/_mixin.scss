@@ -1,0 +1,48 @@
+@mixin responsive-sm-break {
+    @media only screen and (max-width:$grid-responsive-sm-break) {
+        @content;
+    }
+}
+
+@mixin responsive-md-break {
+    @media only screen and (max-width:$grid-responsive-md-break) {
+        @content;
+    }
+}
+
+@mixin responsive-lg-break {
+    @media only screen and (max-width:$grid-responsive-lg-break) {
+        @content;
+    }
+}
+
+@mixin horizen-gradient($start, $end) {
+  // #a7ece9
+  // #bad9fa
+
+  /* Webkit: Safari 4-5, Chrome 1-9 */ 
+  background: -webkit-gradient(linear, 0% 100%, 0% 0%, from($start), to($end)); 
+  /* Webkit: Safari 5.1+, Chrome 10+ */ 
+  background: -webkit-linear-gradient(left, $start, $end); 
+  /* Firefox 3.6+ */ 
+  background: -moz-linear-gradient(left, $start, $end); 
+  /* Opera 11.10+ */ 
+  background: -o-linear-gradient(left, $start, $end); 
+  /* IE 10 */ 
+  background: -ms-linear-gradient(left, $start, $end); 
+  /* IE < 10 */ 
+  /* 注意：这一行必须写在最后 */ 
+  FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, startColorStr=#ff6600, endColorStr=#339900); 
+}
+
+@mixin box-shadow($hShadow: 10px, $vShadow: 10px, 
+  $blur: 0px, $spread: 0px, $color: black) {
+   //Firefox4.0-  
+   -moz-box-shadow: $hShadow $vShadow $blur $spread $color;  
+
+   //Safariand Google chrome10.0-  
+   -webkit-box-shadow: $hShadow $vShadow $blur $spread $color;  
+
+   //Firefox4.0+、 Google chrome 10.0+ 、 Oprea10.5+ and IE9  
+   box-shadow: $hShadow $vShadow $blur $spread $color;  
+}

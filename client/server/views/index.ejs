@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PokemonMax-精灵完美值计算</title>
+    <link href="//cdn.bootcss.com/slick-carousel/1.6.0/slick.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<%= styleSrc %>" type="text/css" media="screen" charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="http://7xli5t.com1.z0.glb.clouddn.com/bitbug_favicon%20%281%29.ico">
+    <meta name="keywords" content="口袋妖怪, pokemon go, pokemon, 宠物小精灵, 神奇宝贝，完美值，个体值"/>
+    <meta name="description" content="口袋妖怪助手" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
+      <img src="http://7xli5t.com1.z0.glb.clouddn.com/pokemon%2F2fdda3cc7cd98d10470d1404263fb80e7bec902d.jpg?imageView2/2/w/400/h/400/format/jpg/interlace/0/q/58" width='700'>
+    </div>
+    <div id="root"><%- html %></div>
+    <script type="text/javascript" charset="utf-8">
+      window.__REDUX_STATE__ = '<%= reduxState %>';
+    </script>
+
+    <script>
+      (function(){
+          var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+          if (curProtocol === 'https') {
+              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+          }
+          else {
+              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+          }
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+
+    <div class="statistic">
+      <script type="text/javascript">
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259994642'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259994642' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+    </div>
+
+    <% scriptSrcs.forEach(function(src){ %>
+      <script src="<%= src %>"></script>
+    <% }) %>
+  </body>
+</html>
+

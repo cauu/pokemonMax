@@ -1,0 +1,102 @@
+.pm-btn-primary {
+  color: $green-1;
+  background: $green-2;
+}
+
+.pm-btn-square {
+  display: inline-block;
+  height: $height-btn-square;
+  line-height: $height-btn-square;
+  width: $width-btn-square;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+.pm-btn-head {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pm-btn-round {
+  height: 40px;
+  width: 50px;
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  .content {
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+  }
+  &:active {
+    background: $grey-3;
+  }
+  &:hover {
+    background: $grey-3;
+  }
+}
+
+.pm-btn-round-lg {
+  @include box-shadow(0px, 0px, 10px, 1px, $grey-2);
+  @extend .pure-button;
+  height: 90px;
+  width: 90px;
+  line-height: 90px!important;
+  border-radius: 45px;
+  padding: 0;
+  border: 5px solid white;
+  // background-color: $green-2;
+  background: none;
+  color: white;
+  position: relative;
+  .content {
+    position: absolute;
+    border: 2px solid #89F7EA;
+    color: #89F7EA;
+    top: 18px;
+    left: 18px;
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+    border-radius: 90px;
+  }
+}
+
+.pm-btn-skill {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 5px;
+  height: 25px;
+  line-height: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.pm-btn-form-add {
+  @extend .pure-button;
+  background: white;
+  display: inline-block;
+  border: 1px dashed $grey-4;
+  color: $grey-4;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.pm-btn-form-del {
+  @extend .pure-button;
+  padding: 0;
+  line-height: 22px!important;
+  height: 22px;
+  width: 22px;
+  background: red;
+  border-radius: 11px;
+  color: white;
+}

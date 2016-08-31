@@ -1,0 +1,27 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "pokemon go assistant server-side",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "iconv-lite": "^0.4.13",
+    "kcors": "^1.2.1",
+    "koa": "^1.2.1",
+    "koa-body": "^1.4.0",
+    "koa-router": "^5.4.0",
+    "log": "^1.4.0",
+    "md5": "^2.1.0",
+    "pogobuf": "^1.4.0",
+    "pokemon-go-node-api": "^1.3.0",
+    "simplecrawler": "^0.7.0"
+  },
+  "devDependencies": {
+    "excel-as-json": "^1.0.3"
+  }
+}

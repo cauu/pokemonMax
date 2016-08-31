@@ -1,0 +1,429 @@
+//Border
+.pm-border-top {
+  border-top: 1px solid $grey-2;
+}
+
+.pm-border-bottom {
+  border-bottom: 1px solid $grey-2;
+}
+
+.pm-border-right {
+  border-right: 1px solid $grey-2;
+}
+
+.pm-border-left {
+  border-left: 1px solid $grey-2;
+}
+
+.pm-border {
+  border: 1px solid $grey-2;
+}
+
+//Color 
+.color-white {
+  color: white!important;
+}
+
+.color-grey-1 {
+  color: $grey-1;
+}
+
+.color-grey-2 {
+  color: $grey-2;
+}
+
+.color-grey-3 {
+  color: $grey-3;
+}
+
+.color-grey-4 {
+  color: $grey-4;
+}
+
+.color-grey-5 {
+  color: $grey-5;
+}
+
+.color-grey-6 {
+  color: $grey-6;
+}
+
+.color-green-1 {
+  color: $green-1;
+}
+
+.color-green-2 {
+  color: $green-2;
+}
+
+.color-yellow-1 {
+  color: $yellow-1;
+}
+
+
+//Attribute color
+.color-normal {
+  color: $color-normal-3;
+}
+
+.color-fairy {
+  color: $color-fairy-3;
+}
+
+.color-steel {
+  color: $color-steel-3;
+}
+
+.color-dark {
+  color: $color-dark-3;
+}
+
+.color-dragon {
+  color: $color-dragon-3;
+}
+
+.color-ghost {
+  color: $color-ghost-3;
+}
+
+.color-rock {
+  color: $color-rock-3;
+}
+
+.color-bug {
+  color: $color-bug-3;
+}
+
+.color-psychic {
+  color: $color-psychic-3;
+}
+
+.color-flying {
+  color: $color-flying-3;
+}
+
+.color-ground {
+  color: $color-ground-3;
+}
+
+.color-poison {
+  color: $color-poison-3;
+}
+
+.color-fighting {
+  color: $color-fighting-3;
+}
+
+.color-ice {
+  color: $color-ice-3;
+}
+
+.color-grass {
+  color: $color-grass-3;
+}
+
+.color-thunder {
+  color: $color-thunder-3;
+}
+
+.color-water {
+  color: $color-water-3;
+}
+
+.color-fire {
+  color: $color-fire-3;
+}
+//background 
+.bg-grey-1 {
+  background: $grey-1;
+}
+
+.bg-grey-2 {
+  background: $grey-2;
+}
+
+.bg-grey-3 {
+  background: $grey-3;
+}
+
+.bg-white {
+  background: white;
+}
+
+.bg-normal {
+  background: $color-normal-3!important;
+}
+
+.bg-fairy {
+  background: $color-fairy-3!important;
+}
+
+.bg-steel {
+  background: $color-steel-3!important;
+}
+
+.bg-dark {
+  background: $color-dark-3!important;
+}
+
+.bg-dragon {
+  background: $color-dragon-3!important;
+}
+
+.bg-ghost {
+  background: $color-ghost-3!important;
+}
+
+.bg-rock {
+  background: $color-rock-3!important;
+}
+
+.bg-bug {
+  background: $color-bug-3!important;
+}
+
+.bg-psychic {
+  background: $color-psychic-3!important;
+}
+
+.bg-flying {
+  background: $color-flying-3!important;
+}
+
+.bg-ground {
+  background: $color-ground-3!important;
+}
+
+.bg-poison {
+  background: $color-poison-3!important;
+}
+
+.bg-fighting {
+  background: $color-fighting-3!important;
+}
+
+.bg-ice {
+  background: $color-ice-3!important;
+}
+
+.bg-grass {
+  background: $color-grass-3!important;
+}
+
+.bg-thunder {
+  background: $color-thunder-3!important;
+}
+
+.bg-water {
+  background: $color-water-3!important;
+}
+
+.bg-fire {
+  background: $color-fire-3!important;
+}
+
+//gradient
+.gradient-normal {
+    @include horizen-gradient($color-normal-1, $color-normal-2);
+}
+
+.gradient-fairy {
+    @include horizen-gradient($color-fairy-1, $color-fairy-2);
+}
+.gradient-steel {
+    @include horizen-gradient($color-steel-1, $color-steel-2);
+}
+.gradient-dark {
+    @include horizen-gradient($color-dark-1, $color-dark-2);
+}
+.gradient-dragon {
+    @include horizen-gradient($color-dragon-1, $color-dragon-2);
+}
+.gradient-ghost {
+    @include horizen-gradient($color-ghost-1, $color-ghost-2);
+}
+
+.gradient-rock {
+    @include horizen-gradient($color-rock-1, $color-rock-2);
+}
+.gradient-bug {
+    @include horizen-gradient($color-bug-1, $color-bug-2);
+}
+.gradient-psychic {
+    @include horizen-gradient($color-psychic-1, $color-psychic-2);
+}
+.gradient-flying {
+    @include horizen-gradient($color-flying-1, $color-flying-2);
+}
+.gradient-ground {
+    @include horizen-gradient($color-ground-1, $color-ground-2);
+}
+.gradient-poison {
+    @include horizen-gradient($color-poison-1, $color-poison-2);
+}
+.gradient-fighting {
+    @include horizen-gradient($color-fighting-1, $color-fighting-2);
+}
+.gradient-ice {
+    @include horizen-gradient($color-ice-1, $color-ice-2);
+}
+.gradient-grass {
+    @include horizen-gradient($color-grass-1, $color-grass-2);
+}
+.gradient-thunder {
+    @include horizen-gradient($color-thunder-1, $color-thunder-2);
+}
+.gradient-water {
+    @include horizen-gradient($color-water-1, $color-water-2);
+}
+.gradient-fire {
+    @include horizen-gradient($color-fire-1, $color-fire-2);
+}
+
+//Border
+
+.border-normal {
+  border: 1px solid $color-normal-3;
+}
+
+.border-fairy {
+  border: 1px solid $color-fairy-3;
+}
+
+.border-steel {
+  border: 1px solid $color-steel-3;
+}
+
+.border-dark {
+  border: 1px solid $color-dark-3;
+}
+
+.border-dragon {
+  border: 1px solid $color-dragon-3;
+}
+
+.border-ghost {
+  border: 1px solid $color-ghost-3;
+}
+
+.border-rock {
+  border: 1px solid $color-rock-3;
+}
+
+.border-bug {
+  border: 1px solid $color-bug-3;
+}
+
+.border-psychic {
+  border: 1px solid $color-psychic-3;
+}
+
+.border-flying {
+  border: 1px solid $color-flying-3;
+}
+
+.border-ground {
+  border: 1px solid $color-ground-3;
+}
+
+.border-poison {
+  border: 1px solid $color-poison-3;
+}
+
+.border-fighting {
+  border: 1px solid $color-fighting-3;
+}
+
+.border-ice {
+  border: 1px solid $color-ice-3;
+}
+
+.border-grass {
+  border: 1px solid $color-grass-3;
+}
+
+.border-thunder {
+  border: 1px solid $color-thunder-3;
+}
+
+.border-water {
+  border: 1px solid $color-water-3;
+}
+
+.border-fire {
+  border: 1px solid $color-fire-3;
+}
+
+//shadow
+
+.shadow-normal {
+  @include box-shadow(0, 0, 10px, 0, $color-normal-2);
+}
+
+.shadow-fairy {
+  @include box-shadow(0, 0, 10px, 0, $color-fairy-2);
+}
+
+.shadow-steel {
+  @include box-shadow(0, 0, 10px, 0, $color-steel-2);
+}
+
+.shadow-dark {
+  @include box-shadow(0, 0, 10px, 0, $color-dark-2);
+}
+
+.shadow-dragon {
+  @include box-shadow(0, 0, 10px, 0, $color-dragon-2);
+}
+
+.shadow-ghost {
+  @include box-shadow(0, 0, 10px, 0, $color-ghost-2);
+}
+
+.shadow-rock {
+  @include box-shadow(0, 0, 10px, 0, $color-rock-2);
+}
+
+.shadow-bug {
+  @include box-shadow(0, 0, 10px, 0, $color-bug-2);
+}
+
+.shadow-psychic {
+  @include box-shadow(0, 0, 10px, 0, $color-psychic-2);
+}
+
+.shadow-flying {
+  @include box-shadow(0, 0, 10px, 0, $color-flying-2);
+}
+
+.shadow-ground {
+  @include box-shadow(0, 0, 10px, 0, $color-ground-2);
+}
+
+.shadow-poison {
+  @include box-shadow(0, 0, 10px, 0, $color-poison-2);
+}
+
+.shadow-fighting {
+  @include box-shadow(0, 0, 10px, 0, $color-fighting-2);
+}
+
+.shadow-ice {
+  @include box-shadow(0, 0, 10px, 0, $color-ice-2);
+}
+
+.shadow-grass {
+  @include box-shadow(0, 0, 10px, 0, $color-grass-2);
+}
+
+.shadow-thunder {
+  @include box-shadow(0, 0, 10px, 0, $color-thunder-2);
+}
+
+.shadow-water {
+  @include box-shadow(0, 0, 10px, 0, $color-water-2);
+}
+
+.shadow-fire {
+  @include box-shadow(0, 0, 10px, 0, $color-fire-2);
+}

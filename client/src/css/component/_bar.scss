@@ -1,0 +1,44 @@
+.pm-bar-head {
+  height: $height-bar-head;
+  width: 100%;
+  border-bottom: 1px solid $grey-2;
+  text-align: center;
+  color: $grey-6;
+  .logo {
+    height: $height-bar-head;
+    line-height: $height-bar-head;
+    // height: 2.2rem;
+    // line-height: 2.2rem;
+  }
+  .menu {
+    position: absolute;
+    right: 20px;
+    top: 2px;
+  }
+}
+
+.pm-bar-footer {
+  height: $height-bar-footer;
+  line-height: 1.3rem;
+  width: 100%;
+  border-top: 1px solid $grey-2;
+  text-align: center;
+  color: $grey-6;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.pm-bar-loading {
+  position: relative;
+  display: inline-block;
+  height: 15px;
+  width: 80%;
+  border-radius: 100px;
+  vertical-align: middle;
+  overflow: hidden;
+  .content {
+    float: right;
+    height: 100%;
+    background: $grey-2;
+  }
+}
